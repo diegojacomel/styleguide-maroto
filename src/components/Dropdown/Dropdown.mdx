@@ -1,0 +1,35 @@
+---
+name: Dropdown
+route: /dropdown
+---
+
+import Dropdown from './Dropdown'
+import { Playground } from 'docz'
+import { ThemeProvider } from 'styled-components'
+import { theme } from '../../styles/themes';
+
+# Dropdown
+
+## Basic usage
+
+<ThemeProvider theme={theme}>
+    <Dropdown
+        data={[
+            "value1",
+            "value2",
+            "value3",
+            "value1",
+            "value2",
+            "value3",
+            "value1",
+            "value2",
+            "value3",
+            "value1",
+            "value2",
+            "value3"
+        ]}
+        title="Título"
+    />
+</ThemeProvider>
+
+## Props

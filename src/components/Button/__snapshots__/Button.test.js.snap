@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button component Generate snapshots 1`] = `
+<button
+  class="sc-bwzfXH ccPxto"
+  color="primary"
+  data-testid="button"
+  type="button"
+>
+  <span>
+    Click here
+  </span>
+</button>
+`;

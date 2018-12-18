@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Icon component Generate snapshots 1`] = `
+<svg
+  class="icon icon-home sc-bdVaJa dwmXVo"
+  data-testid="icon"
+  viewBox="0 0 32 32"
+>
+  <use
+    xlink:href="iconsList.svg#icon-home"
+  />
+</svg>
+`;

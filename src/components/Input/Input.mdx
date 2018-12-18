@@ -1,0 +1,79 @@
+---
+name: Input
+route: /input
+---
+
+import Input from './Input'
+import { Playground } from 'docz'
+import { ThemeProvider } from 'styled-components'
+import { theme } from '../../styles/themes';
+
+# Input
+
+## Basic usage
+
+<ThemeProvider theme={theme}>
+    <Input />
+</ThemeProvider>
+
+```js
+<Input />
+```
+
+## Props
+
+#### **type**
+
+The type attribute specifies the type of input field.
+
+type: string
+
+#### **placeholder**
+
+The placeholder attribute specifies the placeholder of input field.
+
+type: string
+
+#### **color**
+
+It define the input field color.
+
+type: string
+
+- primary
+- danger
+- info
+- success
+- default
+
+#### **withButton**
+
+You should use this prop when you want to show a button on the input field side.
+
+type: bool
+
+<Playground>
+    <ThemeProvider theme={theme}>
+        <Input
+            color="success"
+            buttonIcon="arrow-right2"
+            buttonIconColor="white"
+            rounded="md"
+            onClickButton={() => { alert('prop onClick of Button component') }}
+            withButton
+        />
+    </ThemeProvider>
+</Playground>
+
+#### **onChange**
+
+You should use this props when you want to dispatch a action by each letter typed.
+
+type: function
+
+
+#### **handleClickButton**
+
+You should use this props when you to want to dispatch an action when you clicked on the button.
+
+type: function

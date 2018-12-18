@@ -1,0 +1,203 @@
+{
+  "config": {
+    "title": "Styleguide",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true
+  },
+  "entries": {
+    "src/components/Button/Button.mdx": {
+      "name": "Button",
+      "route": "/button",
+      "id": "2b773349a016959194c905ce6ad9d2d4",
+      "filepath": "src/components/Button/Button.mdx",
+      "link": null,
+      "slug": "src-components-button-button",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "props",
+          "value": "Props"
+        },
+        {
+          "depth": 4,
+          "slug": "type",
+          "value": "type"
+        },
+        {
+          "depth": 4,
+          "slug": "color",
+          "value": "color"
+        },
+        {
+          "depth": 4,
+          "slug": "outline",
+          "value": "outline"
+        },
+        {
+          "depth": 4,
+          "slug": "size",
+          "value": "size"
+        },
+        {
+          "depth": 4,
+          "slug": "rounded",
+          "value": "rounded"
+        },
+        {
+          "depth": 4,
+          "slug": "block",
+          "value": "block"
+        },
+        {
+          "depth": 4,
+          "slug": "icon",
+          "value": "icon"
+        },
+        {
+          "depth": 4,
+          "slug": "iconsize",
+          "value": "iconSize"
+        },
+        {
+          "depth": 4,
+          "slug": "iconcolor",
+          "value": "iconColor"
+        },
+        {
+          "depth": 4,
+          "slug": "iconleft",
+          "value": "iconLeft"
+        },
+        {
+          "depth": 4,
+          "slug": "onclick",
+          "value": "onClick"
+        }
+      ]
+    },
+    "src/components/Dropdown/Dropdown.mdx": {
+      "name": "Dropdown",
+      "route": "/dropdown",
+      "id": "d51b6aecda304e9f603f42bb216f8f90",
+      "filepath": "src/components/Dropdown/Dropdown.mdx",
+      "link": null,
+      "slug": "src-components-dropdown-dropdown",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "dropdown",
+          "value": "Dropdown"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "props",
+          "value": "Props"
+        }
+      ]
+    },
+    "src/components/Icon/Icon.mdx": {
+      "name": "Icon",
+      "route": "/icon",
+      "id": "e3fc531106e64472fee730eea48e21ec",
+      "filepath": "src/components/Icon/Icon.mdx",
+      "link": null,
+      "slug": "src-components-icon-icon",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "icon",
+          "value": "Icon"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        }
+      ]
+    },
+    "src/components/Input/Input.mdx": {
+      "name": "Input",
+      "route": "/input",
+      "id": "7780b551cb8b02f18f9ea05620d2e411",
+      "filepath": "src/components/Input/Input.mdx",
+      "link": null,
+      "slug": "src-components-input-input",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "input",
+          "value": "Input"
+        },
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic usage"
+        },
+        {
+          "depth": 2,
+          "slug": "props",
+          "value": "Props"
+        },
+        {
+          "depth": 4,
+          "slug": "type",
+          "value": "type"
+        },
+        {
+          "depth": 4,
+          "slug": "placeholder",
+          "value": "placeholder"
+        },
+        {
+          "depth": 4,
+          "slug": "color",
+          "value": "color"
+        },
+        {
+          "depth": 4,
+          "slug": "withbutton",
+          "value": "withButton"
+        },
+        {
+          "depth": 4,
+          "slug": "onchange",
+          "value": "onChange"
+        },
+        {
+          "depth": 4,
+          "slug": "handleclickbutton",
+          "value": "handleClickButton"
+        }
+      ]
+    }
+  }
+}
